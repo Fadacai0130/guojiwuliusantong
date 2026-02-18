@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>隐私政策 - 国际物流查询</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+      background: #f0f4f8;
+      color: #1a202c;
+      padding: 24px 16px;
+    }
+    .card {
+      max-width: 680px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 28px 32px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1a56db;
+      margin-bottom: 6px;
+    }
+    .updated {
+      font-size: 12px;
+      color: #718096;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #2d3748;
+      margin: 20px 0 8px;
+      padding-left: 10px;
+      border-left: 3px solid #1a56db;
+    }
+    p {
+      font-size: 13px;
+      line-height: 1.7;
+      color: #4a5568;
+    }
+    code {
+      background: #ebf4ff;
+      color: #2b6cb0;
+      padding: 1px 5px;
+      border-radius: 4px;
+      font-size: 12px;
+    }
+    a { color: #1a56db; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>📋 隐私政策</h1>
+    <div class="updated">国际物流查询 Chrome 扩展 · 最后更新：2026年2月</div>
+
+    <p>本扩展（"国际物流查询 - 三通国际物流"）尊重并保护用户隐私。本政策说明我们如何处理您的数据。</p>
+
+    <h2>数据收集</h2>
+    <p>本扩展<strong>不收集、不传输任何个人可识别信息（PII）</strong>。我们不设置追踪 Cookie，不向任何第三方分析服务发送数据。</p>
+
+    <h2>本地存储</h2>
+    <p>扩展使用 <code>chrome.storage.sync</code> 在您的 Chrome 账户中同步保存以下配置：</p>
+    <p>① 您填写的 API Endpoint（可选）；② API Key（可选）；③ 最近查询的运单号（最多 5 条，仅存于 <code>chrome.storage.local</code>）。</p>
+    <p>以上数据仅用于实现查询功能，不会被开发者读取或上传。</p>
+
+    <h2>第三方 API</h2>
+    <p>若您在设置中填写了自定义查询 API，扩展将向该地址发送运单号和承运商信息以获取物流状态。该第三方服务的数据处理由其自身隐私政策约束，与本扩展无关。</p>
+
+    <h2>网络权限</h2>
+    <p>扩展仅在您主动点击"查询"时，向您配置的 API 地址发起网络请求。未配置 API 时，不发起任何网络请求。</p>
+
+    <h2>安全建议</h2>
+    <p>请勿在公共或共享设备上保存敏感 API Key。如需撤销，可在扩展设置中点击"清除"。</p>
+
+    <h2>联系我们</h2>
+    <p>如有隐私相关问题，请联系：<a href="mailto:support@example.com">support@example.com</a></p>
+  </div>
+</body>
+</html>
